@@ -1,12 +1,14 @@
 A simple Task Management Application built with React and Vite for the frontend and Python with Flask for the backend. This application enables users to add, update, delete, and list tasks with basic user authentication and API communication between frontend and backend.
 
 Technologies Used
-Frontend: React.js (with Vite for optimized build)
-Backend: Python, Flask, Flask-CORS for API development and cross-origin handling
-Database: Local storage for task data
-Authentication: Basic user authentication setup
+
+# Frontend: React.js (with Vite for optimized build)
+# Backend: Python, Flask, Flask-CORS for API development and cross-origin handling
+# Database: Local storage for task data
+# Authentication: Basic user authentication setup
 
 Project Structure
+
 The project is organized into two main parts: Backend and Frontend.
 
 1. Backend (Flask API)
