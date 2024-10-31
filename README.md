@@ -1,8 +1,30 @@
-# React + Vite
+A simple Task Management Application built with React and Vite for the frontend and Python with Flask for the backend. This application enables users to add, update, delete, and list tasks with basic user authentication and API communication between frontend and backend.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies Used
+Frontend: React.js (with Vite for optimized build)
+Backend: Python, Flask, Flask-CORS for API development and cross-origin handling
+Database: Local storage for task data
+Authentication: Basic user authentication setup
 
-Currently, two official plugins are available:
+Project Structure
+The project is organized into two main parts: Backend and Frontend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Backend (Flask API)
+Located in the root directory, with the main server logic in app.py:
+
+app.py: Contains the Flask app, API endpoint setup, and integration with Flask-CORS for cross-origin requests.
+Packages used: Flask, Flask-CORS, jsonify (convert python dictionary into json format)
+
+2. Frontend (React + Vite)
+The src folder contains the frontend components:
+
+Components:
+login.jsx: Manages user login functionality.
+taskList.jsx: Manages task listing, addition, updating, and deletion.
+
+Features
+Task Management: Add, update, delete, and view tasks.
+User Authentication: Basic login system.
+API Communication: Seamless integration of frontend and backend through Flask API endpoints.
+
+
